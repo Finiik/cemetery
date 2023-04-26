@@ -1,0 +1,65 @@
+body 
+{
+    font-family: 'Prata', serif;
+}
+a:link, a:visited {
+    background-color: transparent;
+    color: black;
+    padding: 5px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    color: #e2e2e2;
+  }
+  .placing
+  {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .heading
+  {
+   margin-top:20px ;
+   margin-left: 50px;
+   margin-bottom: 20px;
+   margin-right: 50px ;
+  }
+
+  .img
+  {
+    margin-top:20px ;
+    margin-left: 350px;
+    margin-bottom: 20px;
+    margin-right: 50px ;
+  }
+  .text
+  {
+   margin-top:20px ;
+   margin-left: 1px;
+   margin-bottom: 20px;
+   margin-right: 200px ;
+  }
+  .arrow
+  {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+.arrow_right
+{
+   text-align: right;
+   margin-top:10px ;
+   margin-left: 600px;
+   margin-bottom: 20px;
+   margin-right: 1px ;
+}
+.arrow_left
+{
+   text-align: left;
+   margin-top:10px ;
+   margin-left: 1px;
+   margin-bottom: 20px;
+   margin-right: 785px ;
+}

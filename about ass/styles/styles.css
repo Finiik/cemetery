@@ -1,0 +1,67 @@
+body 
+{
+    font-family: 'Prata', serif;
+}
+.png
+{
+    margin-top:20px ;
+    margin-left: 350px;
+    margin-bottom: 20px;
+    margin-right: 50px ;
+}
+.text_about
+{
+    margin-top:1px ;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-right: 50px ;
+}
+.all
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+a:link, a:visited {
+    background-color: #e2e2e2;
+    color: black;
+    padding: 10px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100px;
+  }
+  
+  a:hover, a:active
+   {
+    color: black;
+   }
+
+.DREAMLAND
+{
+    margin-bottom: 50px;
+}
+.FRONTEND
+{
+    margin-bottom: 50px;
+}
+
+.BACKEND
+{
+    margin-bottom: 50px;
+}
+.DESIGN
+{
+    margin-bottom: 50px;
+}
+.SALE
+{
+    margin-bottom: 50px;
+}
+.CONTACT
+{
+    margin-bottom: 50px;
+}
