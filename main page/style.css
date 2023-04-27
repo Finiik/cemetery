@@ -1,66 +1,66 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Prata;
-    text-align: center;
-    opacity: 1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Prata;
+  text-align: center;
+  opacity: 1;
 }
 
-
 body {
-    background-image: url("golown.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    min-height: 100vh;
+  background-image: url("golown.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
 }
 
 .container {
-    position: relative;
-    width: 100%;
-    max-width: 450px;
-    min-height: 700px;
-    background: rgba(248, 248, 255, .3);
-    box-shadow: inset 12px 29px 81px 0px;
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  min-height: 700px;
+  background: rgba(248, 248, 255, 0.3);
+  box-shadow: inset 12px 29px 81px 0px;
 }
 
 .center {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-    color:white;
-    opacity: 1;
-    top:130px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  opacity: 1;
+  top: 130px;
 }
 
 .icon {
-    font-size: 60px;
-    transform: scale(.5, 1);
+  font-size: 60px;
+  transform: scale(0.5, 1);
 }
 
 .btn {
-    top: 100px;
-    position: relative;
+  top: 100px;
+  position: relative;
 }
 
 .button {
-    background-color: #F8F8FF;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 12px;
-    font-size: 20px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    width: 180px;
-    top: 100px;
+  display: block;
+  background-color: #f8f8ff;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  font-size: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 180px;
+  top: 100px;
 }
