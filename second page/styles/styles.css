@@ -2,7 +2,11 @@ body
 {
     font-family: 'Prata', serif;
 }
+.all-text
+{
 
+    letter-spacing: 4px;
+}
 .first 
 {
     display: flex;
@@ -14,12 +18,21 @@ body
     display: flex;
     flex-direction: row-reverse;
 }
-
+.head2
+{
+    text-align: right;
+    margin-bottom: 100px;
+}
+.head4
+{
+    text-align: right;
+    margin-bottom: 100px;
+}
 
 .text1
 {
    margin-top:1px ;
-   margin-left: 50px;
+   margin-left: 0px;
    margin-bottom: 20px;
    margin-right: 50px ;
 }
@@ -28,7 +41,7 @@ body
 {
     margin-top: 100px ;
     margin-left: 0px;
-    margin-bottom:100px ;
+    margin-bottom:0px ;
     margin-right: 30px;
     text-align: right;
 
@@ -37,23 +50,23 @@ body
 .img1
 {
     margin-top: 60px ;
-    margin-left: 470px;
+    margin-left: 580px;
     margin-bottom: 20px;
-    margin-right: 40px;
+    margin-right: 0px;
 }
 
 .img2
 {
-    margin-top: 60px;
-    margin-left: 30px;
+    margin-top: 100px;
+    margin-left: 0px;
     margin-bottom:100px ;
-    margin-right: 500px;
+    margin-right: 580px;
 }
 
 .text3
 {
    margin-top:1px ;
-   margin-left: 50px;
+   margin-left: 0px;
    margin-bottom: 20px;
    margin-right: 1px ;
 }
@@ -62,7 +75,7 @@ body
 {
     margin-top: 100px ;
     margin-left: 0px;
-    margin-bottom:100px ;
+    margin-bottom:0px ;
     margin-right: 30px;
     text-align: right;
 }
@@ -70,17 +83,17 @@ body
 .img3
 {
     margin-top: 60px ;
-    margin-left: 450px;
+    margin-left: 620px;
     margin-bottom: 20px;
-    margin-right: 30px;
+    margin-right: 0px;
 }
 
 .img4
 {
-    margin-top: 60px;
+    margin-top: 100px;
     margin-left: 30px;
     margin-bottom:100px ;
-    margin-right:600px;
+    margin-right: 450px;
 }
 
 .third 
@@ -107,12 +120,24 @@ a:link, a:visited {
   a:hover, a:active {
     color: #e2e2e2;
   }
-  .arrow-right
+  .arrow
 {
-   text-align: right;
-   margin-top:1px ;
-   margin-left: 600px;
-   margin-bottom: 20px;
-   margin-right: 30px ;
+    display: flex;
+    flex-direction: row;
 }
+.arrow_right
+{
+    margin-top: 100px ;
+    margin-left: 700px;
+    margin-bottom:100px ;
+    margin-right: 518px;
 
+}
+.arrow_left
+{
+    
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom:100px ;
+    margin-right: 0px;
+}
