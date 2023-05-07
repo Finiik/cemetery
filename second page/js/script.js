@@ -29,6 +29,25 @@ container.addEventListener('click', e => {
   updateSelectedCount();
 });
 
-function showSeats() {
-  document.getElementById("selection-place").style.display = "";
+//show/hide seats
+//selPlaceId - ID for selection-place div
+function showSeats(selPlaceId) {
+  if(document.getElementById(selPlaceId).style.display == "none"){
+    document.getElementById(selPlaceId).style.display = "";
+  } else{
+    document.getElementById(selPlaceId).style.display = "none";
+  }
+  console.log("display="+document.getElementById(selPlaceId).style.display)
+  /*document.getElementById("selection-place").style.display = "";*/
+}
+
+//Prepare action for booking
+//cemId - cementary ID
+//cemPlaceId - cementary place ID
+//selPlaceId - ID for selection-place div
+function prepareBooking(cemId, cemPlaceId, selPlaceId){
+  console.log("CemID = "+cemId, "CemPlaceID = "+cemPlaceId)
+  //prepare action place here
+
+  showSeats(selPlaceId);
 }
