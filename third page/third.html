@@ -23,17 +23,60 @@
 
               <div class="text">
                 <ul> 
-                    <p> <a href="посилання" target="_blank"><span style='font-size:27px;'>&#10013;</span></a> HEARSE ( +10$ )</p>
-                    <p> <a href="посилання" target="_blank"><span style='font-size:27px;'>&#10013;</span></a> DIG A GRAVE ( +10$ )</p>
-                    <p> <a href="посилання" target="_blank"><span style='font-size:27px;'>&#10013;</span></a> PLASTIC FUNERAL WREATHS ( +100$ ) </p>
-                    <p> <a href="посилання" target="_blank"><span style='font-size:27px;'>&#10013;</span></a> WOODEN FUNERAL CROSS ( +20$ )</p>
-                    <p> <a href="посилання" target="_blank"><span style='font-size:27px;'>&#10013;</span></a> STAINLESS STEEL FUNERAL CROSS ( +75$ )</p>
-                    <p> <a href="посилання" target="_blank"><span style='font-size:27px;'>&#10013;</span></a> FUNERAL CANDLES ( +25$ )</p>
-                    <p> <a href="посилання" target="_blank"><span style='font-size:27px;'>&#10013;</span></a> CLOTHERS FOR THE DEAD ( +50$ )</p>
-                    <p> <a href="посилання" target="_blank"><span style='font-size:27px;'>&#10013;</span></a> MEMORIAL MONUMENT ( +800$ )</p>
-                    <p> <a href="посилання" target="_blank"><span style='font-size:27px;'>&#10013;</span></a> SINGLE CRYPT MAUSOLEUMS ( +1500$ )</p>
-
+                  <p> <input type="checkbox" id="HEARSE" name="service1" value = `10` >
+                    <label for="HEARSE"><span style='font-size:27px;'>&#10013;</span> HEARSE ( +10$ )</label> <br>
+                    <p> <input type="checkbox" id="DIGAGRAVE" name="service" value = 10>
+                      <label for="DIG A GRAVE"><span style='font-size:27px;'>&#10013;</span>DIG A GRAVE ( +10$ )</label> <br>
+                      <p> <input type="checkbox" id="PLASTICFUNERALWREATHS" name="service" value = 100>
+                        <label for="PLASTIC FUNERAL WREATHS"><span style='font-size:27px;'>&#10013;</span>PLASTIC FUNERAL WREATHS ( +100$ )</label> <br>
+                        <p> <input type="checkbox" id="WOODENFUNERALCROSS" name="service" value = 20>
+                          <label for="WOODEN FUNERAL CROSS"><span style='font-size:27px;'>&#10013;</span>WOODEN FUNERAL CROSS ( +20$ )</label> <br>
+                          <p> <input type="checkbox" id="STAINLESSSTEELFUNERALCROSS" name="service" value = 75>
+                            <label for="STAINLESS STEEL FUNERAL CROSS"><span style='font-size:27px;'>&#10013;</span>STAINLESS STEEL FUNERAL CROSS ( +75$ )</label> <br>
+                            <p> <input type="checkbox" id="FUNERALCANDLES" name="service" value = 25>
+                              <label for="FUNERAL CANDLES"><span style='font-size:27px;'>&#10013;</span>FUNERAL CANDLES ( +25$ )</label> <br>
+                              <p> <input type="checkbox" id="CLOTHERSFORTHEDEAD" name="service" value = 50>
+                                <label for="CLOTHERS FOR THE DEAD"><span style='font-size:27px;'>&#10013;</span>CLOTHERS FOR THE DEAD ( +50$ )</label> <br>
+                                <p> <input type="checkbox" id="MEMORIALMONUMENT" name="service" value = 800>
+                                  <label for="MEMORIAL MONUMENT"><span style='font-size:27px;'>&#10013;</span>MEMORIAL MONUMENT ( +800$ )</label> <br>
+                                  <p> <input type="checkbox" id="SINGLECRYPTMAUSOLEUMS" name="service" value = 1500>
+                                    <label for="SINGLE CRYPT MAUSOLEUMS"><span style='font-size:27px;'>&#10013;</span>SINGLE CRYPT MAUSOLEUMS ( +1500$ )</label> <br><br><br><br>
+                                    <button id="btn" name = "btn"><span style='font-size:27px;'></span>Submit</button>
                 </ul>
+                <script>
+                let result = 0;
+                const ab = document.querySelector('#HEARSE');
+                const bb = document.querySelector('#DIGAGRAVE');
+                const cb = document.querySelector('#PLASTICFUNERALWREATHS');
+                const db = document.querySelector('#WOODENFUNERALCROSS');
+                const eb = document.querySelector('#STAINLESSSTEELFUNERALCROSS');
+                const fb = document.querySelector('#FUNERALCANDLES');
+                const gb = document.querySelector('#CLOTHERSFORTHEDEAD');
+                const hb = document.querySelector('#MEMORIALMONUMENT');
+                const ib = document.querySelector('#SINGLECRYPTMAUSOLEUMS');
+        const btn = document.querySelector('#btn');
+        btn.onclick = () => {
+          if(ab.checked)
+           {result = 10 + result;}
+           if(bb.checked)
+           {result = 10 + result;}
+           if(cb.checked)
+           {result = 100 + result;}
+           if(db.checked)
+           {result = 20 + result;}
+           if(eb.checked)
+           {result = 75 + result;}
+           if(fb.checked)
+           {result = 25 + result;}
+           if(gb.checked)
+           {result = 50 + result;}
+           if(hb.checked)
+           {result = 800 + result;}
+           if(ib.checked)
+           {result = 1500 + result;}
+           alert(result + "$")
+        };
+                </script>
               </div>
          </div>
          <div class="arrow">
