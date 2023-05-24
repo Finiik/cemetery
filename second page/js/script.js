@@ -11,8 +11,10 @@ function updateSelectedCount() {
   console.log("Update total and count= updateSelectedCount")
   const selectedSeats = document.querySelectorAll('.row .seat.selected');
   const selectedSeatsCount = selectedSeats.length;
+  let totalSpotsPrice = selectedSeatsCount * ticketPrice;
   count.innerText = selectedSeatsCount;
-  total.innerText = selectedSeatsCount * ticketPrice;
+  total.innerText = totalSpotsPrice
+  localStorage.setItem("spotsPrice",totalSpotsPrice);
 }
 
 //Movie Select Event

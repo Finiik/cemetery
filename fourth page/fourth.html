@@ -15,9 +15,9 @@
     <div class="wrapper">
         <div class="container">
             <p class="bold-text">1000 $</p>
-            <img src="./st/st1.png" alt="photo1" width="300" height="300" onclick="alert('Added to cart: White metal casket.')">
+            <img src="./st/st1.png" alt="photo1" width="300" height="300" onclick='addCoffins("White metal casket.",1000)'>
             <p class="text">WHITE METAL CASKET</p>
-            <img src="./st/st2.png" alt="photo2" width="300" height="300" onclick="alert('Added to cart: Black metal casket.')">
+            <img src="./st/st2.png" alt="photo2" width="300" height="300" onclick='addCoffins("Black metal casket.",1000)'>
             <p class="text">BLACK METAL CASKET</p>
         </div>
         <style>
@@ -114,9 +114,9 @@
 
         <div class="container">
             <p class="bold-text">750 $</p>
-            <img src="./st/st3.png" alt="photo3" width="300" height="300" onclick="alert('Added to cart: Cherry wooden casket.')">
+            <img src="./st/st3.png" alt="photo3" width="300" height="300" onclick='addCoffins("Cherry wooden casket",750)'>
             <p class="text" >CHERRY WOODEN CASKET</p>
-            <img src="./st/st4.png" alt="photo4" width="300" height="300" onclick="alert('Added to cart: Oak wooden casket.')">
+            <img src="./st/st4.png" alt="photo4" width="300" height="300" onclick='addCoffins("Oak wooden casket",750)'>
             <p class="text" >OAK WOODEN CASKET</p>
         </div>
         <style>
@@ -128,12 +128,12 @@
             }
 
                 .container img {
-                    margin - top: 0px;
+                    margin-top: 0px;
                     margin-bottom: 0px;
                 }
 
                 .container p {
-                    text - align: center;
+                    text-align: center;
                     top: 0;
                     left: 4;
                     color: black;
@@ -146,7 +146,7 @@
             }
 
             .bold-text {
-                font - weight: bold;
+                font-weight: bold;
             }
         </style>
         <display: flex>
@@ -167,5 +167,11 @@
         }
     </style>
 
+<script>
+    function addCoffins(name, price) {
+        alert("Added to cart: " + name);
+        localStorage.setItem("coffinsPrice", price);
+    }
+</script>
 </body >
 </html >
