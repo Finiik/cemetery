@@ -29,274 +29,392 @@
             <div class="email-field">
                 <label for="email-input">Email to get a receipt:</label>
                 <input type="email" id="email-input">
-                <div class="window2">
-                    <div class="cvvblock">
-                        <label for="inputcvv">CVV2/CVC2</label>
-                        <input type="text2" id="inputcvv">
-                    </div>
-                </div>
-                <div class="window">
-                    <div class="overlay">
-                        <img src="./іконки.png" alt="Icons" width="230" height="35">
-                    </div>
-                    <div class="overlay1">
-                        <div class="input-block">
-                            <label for="card-input">Card number</label>
-                            <input type="text1" id="card-input">
-                        </div>
-                        <div class="input-row">
-                            <div class="input-block">
-                                <label for="input1">Expiration date</label>
-                                <input placeholder="MM" type="text" id="input1">
+            <div class="second_name-field">
+                        <label for="second_name-input">First name:</label>
+                        <input type="second_name" id="second_name-input">
+                        <div class="name-field">
+                            <label for="email-input">Second name:</label>
+                            <input type="name" id="name-input">
+                            <div class="phone-field">
+                                <label for="phone-input">Phone number for confirmation:</label>
+                                <input type="phone" id="phone-input">
+                                <div class="window2">
+                                    <div class="cvvblock">
+                                        <label for="inputcvv">CVV2/CVC2</label>
+                                        <input type="text2" id="inputcvv">
+                                    </div>
+                                </div>
+                                <div class="window">
+                                    <div class="overlay">
+                                        <img src="./іконки.png" alt="Icons" width="230" height="35">
+                                    </div>
+                                    <div class="overlay1">
+                                        <div class="input-block">
+                                            <label for="card-input">Card number</label>
+                                            <input type="text1" id="card-input">
+                                        </div>
+                                        <div class="input-row">
+                                            <div class="input-block">
+                                                <label for="input1">Expiration date</label>
+                                                <input placeholder="MM" type="text" id="input1">
+                                            </div>
+                                            <div class="input-block">
+                                                <label class="hidden-label" for="input2"></label>
+                                                <input placeholder="YY" type="text" id="input2">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
-                            <div class="input-block">
-                                <label class="hidden-label" for="input2"></label>
-                                <input placeholder="YY" type="text" id="input2">
+                            <div class="image-container1">
+                                <a href="../fourth page/fourth.html">
+                                    <img src="./strilo4ka.png" alt="Footer img" width="75" height="50">
+                                </a>
+                            </div>
+                            <div class="container-button">
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="button">PAY NOW</a>
                             </div>
                         </div>
-
                     </div>
-                    </div>
-                </div>
-            <div class="image-container1">
-                <a href="../fourth page/fourth.html">
-                    <img src="./strilo4ka.png" alt="Footer img" width="75" height="50">
-                </a>
-            </div>
-            <div class="container-button">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="button">PAY NOW</a>
-            </div>
-        </div>
-    </div>
 
-    <style>
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+                    <style>
+                        .container {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
 
-        .text-container {
-            text-align: left;
-            margin-right: 20px;
-            display: flex;
-            align-items: center;
-        }
+                        .text-container {
+                            text-align: left;
+                            margin-right: 20px;
+                            display: flex;
+                            align-items: center;
+                        }
 
-        .text-group {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            line-height: 2.5;
-            margin-top: 10px;
-        }
+                        .text-group {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            line-height: 2.5;
+                            margin-top: 10px;
+                        }
 
-        .price {
-            font-weight: bold;
-        }
+                        .price {
+                            font-weight: bold;
+                        }
 
-        .boldtext {
-            font-weight: bold; 
-        }
+                        .boldtext {
+                            font-weight: bold;
+                        }
 
-        .text {
-            position: relative;
-            right: 160px;
-            margin-bottom: 10px;
-            font-size: 25px;
-            letter-spacing: 4px;
-        }
+                        .text {
+                            position: relative;
+                            right: 160px;
+                            margin-bottom: 10px;
+                            font-size: 25px;
+                            letter-spacing: 4px;
+                        }
 
-        .additional-text {
-            position: absolute;
-            top: 75px;
-            right: 190px;
-            font-size: 25px;
-            color: black;
-            letter-spacing: 4px;
-        }
+                        .additional-text {
+                            position: absolute;
+                            top: 75px;
+                            right: 190px;
+                            font-size: 25px;
+                            color: black;
+                            letter-spacing: 4px;
+                        }
 
-        .image-container {
-            position: relative;
-            right: 70px;
-            text-align: center;
-            margin-top: -50px;
-            margin-bottom: 10px;
-        }
+                        .image-container {
+                            position: relative;
+                            right: 70px;
+                            text-align: center;
+                            margin-top: -50px;
+                            margin-bottom: 10px;
+                        }
 
-        .bold-text {
-            position: relative;
-            font-weight: bold;
-            letter-spacing: 7px;
-            color: black;
-            font-size: 45px;
-            top: 20px
-        }
+                        .bold-text {
+                            position: relative;
+                            font-weight: bold;
+                            letter-spacing: 7px;
+                            color: black;
+                            font-size: 45px;
+                            top: 20px
+                        }
 
-        .email-field {
-            margin-top: -100px;
-            background-color: #f0f0f0;
-            padding: 13px;
-            height: 35px;
-            position: relative;
-            top: -100px;
-            left: 20px;
-            border-radius: 4px;
-            border-color: dimgrey;
-        }
+                        .email-field {
+                            margin-top: -100px;
+                            background-color: #f0f0f0;
+                            padding: 13px;
+                            height: 35px;
+                            width: 200px;
+                            position: relative;
+                            top: -100px;
+                            left: 20px;
+                            border-radius: 4px;
+                            border-color: dimgrey;
+                        }
 
-            .email-field::before {
-                content: "";
-                position: absolute;
-                top: 0;
-                left:;
-                width: 180%;
-                height: 100%;
-                background-color: #f0f0f0;
-                z-index: -1;
-                border-radius: 4px;
-                border-color: dimgrey;
-            }
+                            .email-field::before {
+                                content: "";
+                                position: absolute;
+                                top: 0;
+                                left:;
+                                width: 120%;
+                                height: 100%;
+                                background-color: #f0f0f0;
+                                z-index: -1;
+                                border-radius: 4px;
+                                border-color: dimgrey;
+                            }
 
-        label {
-            display: block;
-            margin-bottom: 1px;
-            color: grey;
-        }
+                        .second_name-field {
+                            margin-top: 100px;
+                            background-color: #f0f0f0;
+                            padding: 13px;
+                            height: 110px;
+                            width: 200px;
+                            position: relative;
+                            top: -100px;
+                            left: -13px;
+                            border-radius: 4px;
+                            border-color: dimgrey;
+                        }
 
-        input[type="email"] {
-            width: 198%;
-            padding: 3px;
-            border: thin;
-            border-radius: 4px;
-            border-color: dimgrey;
-        }
+                            .second_name-field::before {
+                                content: "";
+                                position: absolute;
+                                top: 0;
+                                left:;
+                                width: 120%;
+                                height: 100%;
+                                background-color: #f0f0f0;
+                                z-index: -1;
+                                border-radius: 4px;
+                                border-color: dimgrey;
+                            }
 
-        .image-container1 {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            margin: 40px;
-            transform: rotate(180deg);
-        }
+                        .name-field {
+                            margin-top: 100px;
+                            background-color: #f0f0f0;
+                            padding: 13px;
+                            height: 35px;
+                            width: 200;
+                            position: relative;
+                            top: -100px;
+                            left: -13px;
+                            border-radius: 4px;
+                            border-color: dimgrey;
+                        }
 
-        .container-button {
-            position: fixed;
-            text-align: left;
-            margin-top: 400px;
-            right: 168px;
-        }
+                            .name-field::before {
+                                content: "";
+                                position: absolute;
+                                top: 0;
+                                left:;
+                                width: 107%;
+                                height: 100%;
+                                background-color: #f0f0f0;
+                                z-index: -1;
+                                border-radius: 4px;
+                                border-color: dimgrey;
+                            }
 
-        .button {
-            background-color: #d3d3d3;
-            color: black;
-            padding: 23px 70px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 14px;
-            cursor: pointer;
-            border-radius: 100px;
-            letter-spacing: 4px;
-        }
+                        .phone-field {
+                            margin-top: 100px;
+                            background-color: #f0f0f0;
+                            padding: 13px;
+                            height: 40px;
+                            width: 258px;
+                            position: relative;
+                            top: -100px;
+                            left: -13px;
+                            border-radius: 4px;
+                            border-color: dimgrey;
+                        }
 
-        .window {
-            margin-top: 40px;
-            margin-left: -100px;
-            background-color: #f0f0f0;
-            border-radius: 10px;
-            padding: 20px;
-            width: 300px;
-            height: 150px;
-            position: absolute;
-            top: 50px;
-            left: 50px;
-            border-radius: 10px;
-            border-color: dimgrey;
-        }
-        .overlay {
-            position: absolute;
-            bottom: 10px;
-            right: 15px;
-        }
+                            .phone-field::before {
+                                content: "";
+                                position: absolute;
+                                top: 0;
+                                left:;
+                                width: 26%;
+                                height: 100%;
+                                background-color: #f0f0f0;
+                                z-index: -1;
+                                border-radius: 4px;
+                                border-color: dimgrey;
+                            }
 
-        .window2 {
-            margin-top: 80px;
-            margin-left: 25px;
-            background-color: #d3d3d3;
-            border-radius: 10px;
-            padding: 20px;
-            width: 300px;
-            height: 150px;
-            position: absolute;
-            top: 50px;
-            left: 50px;
-            border-radius: 10px;
-            border-color: dimgrey;
-            overflow: hidden;
-        }
-        .window2::before {
-            content: '';
-            position: absolute;
-            top: 25%;
-            left: 0;
-            height: 45px;
-            width: 100%;
-            background-color: darkgray;
-            transform: translateY(-50%);
-        }
+                        label {
+                            display: block;
+                            margin-bottom: 1px;
+                            color: grey;
+                        }
 
-        .input-row {
-            display: flex;
-            align-items: flex-start;
-            justify-content: flex-start;
-            margin: 0;
-            padding: 0px;
-        }
-        .input-block {
-            margin: 0;
-            padding: 0;
-        }
-            .input-block label {
-                margin-bottom: 5px;
-                height: 18px;
-            }
-        .hidden-label {
-            visibility: hidden;
-            height: 18px;
-        }
+                        input[type="email"] {
+                            width: 250px;
+                            padding: 3px;
+                            border: thin;
+                            border-radius: 4px;
+                            border-color: dimgrey;
+                        }
 
-            .input-block input {
-                width: 50px;
-                padding: 5px;
-            }
-        .input-row .input-block:not(:last-child) {
-            margin-right: 10px;
-        }
-        .input-block input[type="text1"] {
-            width: 285px; 
-        }
+                        input[type="second_name"] {
+                            width: 250px;
+                            padding: 3px;
+                            border: thin;
+                            border-radius: 4px;
+                            border-color: dimgrey;
+                        }
 
-        .cvvblock {
-            position: absolute;
-            top: 50%;
-            right: -20px;
-            transform: translate(-50%, -50%);
-            text-align: right;
-        }
+                        input[type="name"] {
+                            width: 250px;
+                            padding: 3px;
+                            border: thin;
+                            border-radius: 4px;
+                            border-color: dimgrey;
+                        }
 
-            .cvvblock label {
-                display: block;
-                margin-bottom: 5px;
-                text-align: left;
-            }
+                        input[type="phone"] {
+                            width: 250px;
+                            padding: 3px;
+                            border: thin;
+                            border-radius: 4px;
+                            border-color: dimgrey;
+                        }
 
-            .cvvblock input {
-                width: 65px;
-                padding: 5px;
-            }
+                        .image-container1 {
+                            position: fixed;
+                            bottom: 0;
+                            left: 0;
+                            margin: 40px;
+                            transform: rotate(180deg);
+                        }
 
-    </style>
+                        .container-button {
+                            position: fixed;
+                            text-align: left;
+                            margin-top: 315px;
+                            right: 18px;
+                        }
+
+                        .button {
+                            background-color: #d3d3d3;
+                            color: black;
+                            padding: 23px 70px;
+                            text-align: center;
+                            text-decoration: none;
+                            display: inline-block;
+                            font-size: 14px;
+                            cursor: pointer;
+                            border-radius: 100px;
+                            letter-spacing: 4px;
+                        }
+
+                        .window {
+                            margin-top: 60px;
+                            margin-left: -100px;
+                            background-color: #f0f0f0;
+                            border-radius: 10px;
+                            padding: 20px;
+                            width: 300px;
+                            height: 150px;
+                            position: absolute;
+                            top: 50px;
+                            left: 50px;
+                            border-radius: 10px;
+                            border-color: dimgrey;
+                        }
+
+                        .overlay {
+                            position: absolute;
+                            bottom: 10px;
+                            right: 15px;
+                        }
+
+                        .window2 {
+                            margin-top: 100px;
+                            margin-left: 20px;
+                            background-color: #d3d3d3;
+                            border-radius: 10px;
+                            padding: 20px;
+                            width: 300px;
+                            height: 150px;
+                            position: absolute;
+                            top: 50px;
+                            left: 50px;
+                            border-radius: 10px;
+                            border-color: dimgrey;
+                            overflow: hidden;
+                        }
+
+                            .window2::before {
+                                content: '';
+                                position: absolute;
+                                top: 25%;
+                                left: 0;
+                                height: 45px;
+                                width: 100%;
+                                background-color: darkgray;
+                                transform: translateY(-50%);
+                            }
+
+                        .input-row {
+                            display: flex;
+                            align-items: flex-start;
+                            justify-content: flex-start;
+                            margin: 0;
+                            padding: 0px;
+                        }
+
+                        .input-block {
+                            margin: 0;
+                            padding: 0;
+                        }
+
+                            .input-block label {
+                                margin-bottom: 5px;
+                                height: 18px;
+                            }
+
+                        .hidden-label {
+                            visibility: hidden;
+                            height: 18px;
+                        }
+
+                        .input-block input {
+                            width: 50px;
+                            padding: 5px;
+                        }
+
+                        .input-row .input-block:not(:last-child) {
+                            margin-right: 10px;
+                        }
+
+                        .input-block input[type="text1"] {
+                            width: 285px;
+                        }
+
+                        .cvvblock {
+                            position: absolute;
+                            top: 50%;
+                            right: -20px;
+                            transform: translate(-50%, -50%);
+                            text-align: right;
+                        }
+
+                            .cvvblock label {
+                                display: block;
+                                margin-bottom: 5px;
+                                text-align: left;
+                            }
+
+                            .cvvblock input {
+                                width: 65px;
+                                padding: 5px;
+                            }
+                    </style>
 
 </body>
 </html >
