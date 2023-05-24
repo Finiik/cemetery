@@ -2,12 +2,13 @@ const container = document.querySelector('.container');
 const seats = document.querySelectorAll('.row .seat:not(.occupied)');
 const count = document.getElementById('count');
 const total = document.getElementById('total');
-const movieSelect = document.getElementById('movie');
+//const movieSelect = document.getElementById('movie');
 
-let ticketPrice = +movieSelect.value;
+let ticketPrice = 100;//movieSelect.value;
 
 //Update total and count
 function updateSelectedCount() {
+  console.log("Update total and count= updateSelectedCount")
   const selectedSeats = document.querySelectorAll('.row .seat.selected');
   const selectedSeatsCount = selectedSeats.length;
   count.innerText = selectedSeatsCount;
@@ -15,13 +16,15 @@ function updateSelectedCount() {
 }
 
 //Movie Select Event
-movieSelect.addEventListener('change', e => {
+/*movieSelect.addEventListener('change', e => {
+  console.log("Movie Select Event= movieSelect.addEventListener")
   ticketPrice = +e.target.value;
   updateSelectedCount();
-});
+});*/
 
 //Seat click event
 container.addEventListener('click', e => {
+  console.log("Seat click event=  container.addEventListener")
   if (e.target.classList.contains('seat') &&
      !e.target.classList.contains('occupied')) {
     e.target.classList.toggle('selected');

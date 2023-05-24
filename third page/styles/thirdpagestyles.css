@@ -19,6 +19,7 @@ a:link, a:visited {
     display: flex;
     flex-direction: row-reverse;
   }
+  
 
   .heading
   {
@@ -68,6 +69,7 @@ a:link, a:visited {
   cursor: pointer;
   border-radius: 100px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+  
 }
 
 .arrow_left
@@ -82,3 +84,19 @@ a:link, a:visited {
 {
   letter-spacing: 4px;
 }
+
+.button {
+  background-color: #e2e2e2;
+  border: none;
+  color: black;
+  padding: 3px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 3px;
+  cursor: pointer;
+}
+
+
+.button1 {border-radius: 50px;}

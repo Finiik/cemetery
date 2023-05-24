@@ -18,7 +18,7 @@
 
          <div class="placing">
               <div class="img">
-                <img src="img1/517b9c04aa7b3b8bf3b549dfb9885f8f.jpg" alt="Girl in a jacket" width="470" height="570">
+                <img src="img1/517b9c04aa7b3b8bf3b549dfb9885f8f.jpg" alt="cem" width="470" height="570">
               </div>
 
               <div class="text">
@@ -41,7 +41,8 @@
                                   <label for="MEMORIAL MONUMENT"><span style='font-size:27px;'>&#10013;</span>MEMORIAL MONUMENT ( +800$ )</label> <br>
                                   <p> <input type="checkbox" id="SINGLECRYPTMAUSOLEUMS" name="service" value = 1500>
                                     <label for="SINGLE CRYPT MAUSOLEUMS"><span style='font-size:27px;'>&#10013;</span>SINGLE CRYPT MAUSOLEUMS ( +1500$ )</label> <br><br><br><br>
-                                    <button id="btn" name = "btn"><span style='font-size:27px;'></span>Submit</button>
+                                    <button class="button button1" id="btn" name = "btn"><a><span style='font-size:27px;'></span><p>Submit</p></a></button>
+                                    
                 </ul>
                 <script>
                 let result = 0;
@@ -56,6 +57,7 @@
                 const ib = document.querySelector('#SINGLECRYPTMAUSOLEUMS');
         const btn = document.querySelector('#btn');
         btn.onclick = () => {
+          result = 0;
           if(ab.checked)
            {result = 10 + result;}
            if(bb.checked)

@@ -11,6 +11,7 @@ body
 {
     display: flex;
     flex-direction: row;
+    
 }
 
 .second 
@@ -49,18 +50,30 @@ body
 
 .img1
 {
-    margin-top: 60px ;
+    /*margin-top: 60px ;
     margin-left: 580px;
     margin-bottom: 20px;
-    margin-right: 0px;
+    margin-right: 0px;*/
+  margin: 0;
+  position: absolute;
+  top: 41%;
+  left: 82%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .img2
 {
-    margin-top: 100px;
+    /*margin-top: 100px;
     margin-left: 0px;
     margin-bottom:100px ;
-    margin-right: 580px;
+    margin-right: 580px;*/
+  margin: 0;
+  position: absolute;
+  top: 108%;
+  left: 18%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .text3
@@ -73,7 +86,7 @@ body
 
 .text4
 {
-    margin-top: 100px ;
+    margin-top: 0px ;
     margin-left: 0px;
     margin-bottom:0px ;
     margin-right: 30px;
@@ -82,18 +95,31 @@ body
 
 .img3
 {
-    margin-top: 60px ;
+    /*margin-top: 60px ;
     margin-left: 620px;
-    margin-bottom: 20px;
-    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;*/
+  margin: 0;
+  position: absolute;
+  top: 206%;
+  left: 82%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .img4
 {
-    margin-top: 100px;
+    /*margin-top: 100px;
     margin-left: 30px;
     margin-bottom:100px ;
-    margin-right: 450px;
+    margin-right: 450px;*/
+  margin: 0;
+  position: absolute;
+  top: 274%;
+  left: 18%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
 }
 
 .third 
@@ -127,19 +153,23 @@ a:link, a:visited {
 }
 .arrow_right
 {
-    margin-top: 100px ;
+   /* margin-top: 100px ;
     margin-left: 700px;
     margin-bottom:100px ;
-    margin-right: 518px;
-
+    margin-right: 518px;*/
+    height: 200px;
+    width: 100%;
 }
 .arrow_left
 {
-    
-    margin-top: 100px;
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+    /*margin-top: 100px;
     margin-left: 100px;
     margin-bottom:100px ;
-    margin-right: 0px;
+    margin-right: 0px;*/
 }
 
 
